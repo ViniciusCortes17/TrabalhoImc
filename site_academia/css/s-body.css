@@ -1,0 +1,203 @@
+.s-planos {
+   display: grid;
+   grid-template-rows: 9fr 1fr;
+   height: 100vh;
+   background: rgb(21, 21, 24);
+
+}
+.s-plano1 {
+   margin: 10vh;
+   height: 50vh;
+
+}
+.s-plano1 h2 {
+   color: rgb(255, 255, 255);
+   font-size: 50px ;
+   display: inline-block;
+   font-size: 50px;
+   margin-block-start: 100px;
+   margin-block-end: 0px;
+   margin-inline-start: 60px;
+   margin-inline-end: auto;
+}
+.s-plano1 p {
+   display: inline-block;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 60px;
+   margin-inline-end: 800px;
+   color: rgb(255, 255, 255);
+} 
+.btn-plano {
+   display: inline-block;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 100px;
+   margin-inline-end: 800px;
+}
+.btn-plano {
+   border: 0;
+   border-radius: 50px;
+   height: 50px;
+   width: 100px;
+   transform: perspective(1px) translateZ(0);
+   transition-duration: 0.5s;
+   background: rgb(255, 184, 18);
+}
+.btn-plano:hover {
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   text-decoration: bold;
+}
+.btn-plano:focus {
+   outline: thin dotted;
+   outline: 0px ;
+}
+.s-plano2 {
+   background: rgb(21, 21, 24);
+   height: 50vh;
+}
+
+.s-prof { 
+   margin-top: 10vh;
+   background: rgb(255, 182, 18);
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   height: 120vh;
+   width: 100%;
+}
+.s-prof1 {
+   background: rgb(255, 255, 255);
+   border-radius: 15px;
+   height: 70vh;
+   margin: 15px;
+   padding: 30px;
+   border: 3px solid rgb(21, 21, 24);
+   
+}
+.s-prof2 {
+   background: rgb(255, 255, 255);
+   border-radius: 15px;
+   height: 70vh;
+   margin: 15px;
+   padding: 30px;
+   border: 3px solid rgb(21, 21, 24);
+}
+.s-prof3 {
+   background: rgb(255, 255, 255);
+   border-radius: 15px;
+   height: 70vh;
+   margin: 15px;
+   padding: 30px;
+   border: 3px solid rgb(21, 21, 24);
+
+}
+.s-prof h2 {
+   text-align: center;
+}
+.s-prof1 img {
+   background: url(../img/2.jpg) ;
+   border-radius: 100%;
+   height: 30vh;
+   width: 15vw;
+   margin-left: 5.5vw;
+   align-self: center;
+}
+.s-prof2 img {
+   background: url(../img/1.jpg) ;
+   border-radius: 100%;
+   height: 30vh;
+   width: 15vw;
+   margin-left: 5.5vw;
+}
+.s-prof3 img {
+   background: url(../img/8.jpg) ;
+   border-radius: 100%;
+   height: 30vh;
+   width: 15vw;
+   margin-left: 5.5vw;
+
+}
+.s-aula1 {
+   background: url(../img/4.jpg) 140% no-repeat;
+   height: 86vh;
+    
+}
+.s-aula1 h2 {
+   display: inline-block;
+   font-size: 50px;
+   margin-block-start: 100px;
+   margin-block-end: 0px;
+   margin-inline-start: 60px;
+   margin-inline-end: auto;
+}
+.s-aula1 p {
+   display: inline-block;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 60px;
+   margin-inline-end: 800px;
+}
+.s-aula1 a {
+   display: inline-block;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 100px;
+   margin-inline-end: 800px;
+}
+.s-aula2 {
+   background: rgb(21, 21, 24) url(../img/8.jpg) -40% no-repeat;
+   height: 86vh;
+    
+}
+.s-aula2 h2 {
+   display: inline-block;
+   font-size: 50px;
+   margin-block-start: 100px;
+   margin-block-end: 0px;
+   margin-inline-start: 990px;
+   color: rgb(255, 255, 255);
+}
+.s-aula2 p {
+   display: inline-block;
+   text-align: right;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 800px;
+   margin-inline-end: 60px;
+   color: rgb(255, 255, 255);
+}
+.s-aula2 a {
+   display: inline-block;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 1150px;
+   margin-inline-end: 60px;
+}
+.s-aula3 {
+   background:url(../img/9.jpg) 140% no-repeat;
+   height: 86vh;
+    
+}
+.s-aula3 h2 {
+   display: inline-block;
+   font-size: 50px;
+   margin-block-start: 100px;
+   margin-block-end: 0px;
+   margin-inline-start: 60px;
+   margin-inline-end: auto;
+}
+.s-aula3 p {
+   display: inline-block;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 60px;
+   margin-inline-end: 800px;
+}
+.s-aula3 a {
+   display: inline-block;
+   margin-block-start: 15px;
+   margin-block-end: 100px;
+   margin-inline-start: 100px;
+   margin-inline-end: 800px;
+}
